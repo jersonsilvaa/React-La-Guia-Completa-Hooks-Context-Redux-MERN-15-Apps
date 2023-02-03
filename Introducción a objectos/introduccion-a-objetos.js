@@ -45,7 +45,7 @@ console.log(nombreProducto) // Tablet
 // Object Literal Enhacement: Sirve para volver a colocar una variable que estaba fuera de un objeto
 
 const auth = true
-const user = 'devsilva'
+const user = 'daviardev'
 
 // Puede hacerse así
 const nuevoObjeto = {

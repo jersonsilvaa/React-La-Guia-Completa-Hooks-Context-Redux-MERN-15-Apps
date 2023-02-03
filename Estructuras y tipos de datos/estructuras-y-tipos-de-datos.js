@@ -5,14 +5,14 @@
 let cliente
 
 console.log(cliente) // undefined
-console.log(typeof cliente) // undefined
+console.log(typeof cliente) // 'undefined'
 
 // boolean: Es un tipo de dato que puede ser true o false
 
 const descuento = true
 
 console.log(descuento) // true
-console.log(typeof descuento) // boolean
+console.log(typeof descuento) // 'boolean'
 
 // true
 // boolean
@@ -23,9 +23,9 @@ const num1 = 10 // Número entero
 const num2 = 10.1 // Número float
 const num3 = -10.3 // Número float negativo
 
-console.log(typeof num1) // number
-console.log(typeof num2) // number
-console.log(typeof num3) // number
+console.log(typeof num1) // 'number'
+console.log(typeof num2) // 'number'
+console.log(typeof num3) // 'number'
 
 // Nos damos cuenta que sin importar el número sea un float, int, double, negativo. Siempre serán números sin importar el tipo de número que sea.
 
@@ -38,8 +38,8 @@ const producto = "Samsung 42 pulgadas" // Podemos usar comillas dobles
 
 // let aux = "' // Unterminated string liretal
 
-const num = '3'
-const num_2 = 3
+const num = '3' // 'string'
+const num_2 = 3 // 'number'
 
 console.log(typeof num) // number
 console.log(typeof num_2) // number
@@ -63,7 +63,7 @@ console.log(10 + Number(numeroGrande)) // 3.232738723762738e+31
 const coercion = '30'
 const coercion2 = 30
 
-console.log(coercion + coercion2) // 3030
+console.log(coercion + coercion2) // '3030'
 
 // Lo que hace es juntar los 2 tipos de datos en un solo dato
 

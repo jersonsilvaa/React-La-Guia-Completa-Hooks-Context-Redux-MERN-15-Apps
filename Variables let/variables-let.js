@@ -6,19 +6,19 @@
 
 // Las variables tipo const siempre deben ser inicializadas y nunca cambian ej: const aux = 'prueba', nunca se les puede modificar el valor durante la ejecución.
 
-let precio = 500
-let cliente = 'Carlos'
+let precio = 500 // 500
+let cliente = 'Carlos' // true
 
 // Re asignar un valor
 precio = 500
 precio = true
 
-cliente = 'dsa'
-cliente = 'tu no mete cabra saramanbiche'
+cliente = 'dsa' // 'dsa'
+cliente = 'tu no mete cabra saramanbiche' // 'tu no mete cabra sarambiche'
 
-console.log(precio, cliente)
+console.log(precio, cliente) // true 'tu no mete cabra saramanbiche'
 
 // Pueden iniciarse sin un valor
 
-let precioDescuento
+let precioDescuento // undefined
 console.log(precioDescuento)

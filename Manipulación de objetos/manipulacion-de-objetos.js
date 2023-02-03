@@ -28,6 +28,11 @@ producto.imagen = 'imagen.png'
 delete producto.imagen
 
 console.table(producto)
+// |    (index)     |  Values  |
+// -----------------------------
+// |     precio     |   300    |
+// |   disponible   |   true   |
+// | nombreProducto | 'Tablet' |
 
 // disponible: true
 // nombreProducto: "Televisor Curvo"

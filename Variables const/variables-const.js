@@ -14,4 +14,4 @@ const cliente = 'Carlos'
 
 // Uncaught SyntaxError: Identifier 'cliente' has already been declared (at variables-let.js:13:7)
 
-console.log(cliente)
+console.log(cliente) // 'Carlos'
